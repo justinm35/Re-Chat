@@ -1755,7 +1755,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
         ],
         "async": false
       },
@@ -1763,7 +1763,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
         ],
         "async": false
       },
@@ -1771,7 +1771,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/add-base-path.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
         ],
         "async": false
       }
@@ -2873,7 +2873,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "*",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
         ],
         "async": false
       },
@@ -2881,7 +2881,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
         ],
         "async": false
       },
@@ -2889,7 +2889,387 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
         "name": "default",
         "chunks": [
-          "app-client-internals:app-client-internals"
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/AddFriendButton.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/AddFriendButton.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/AddFriendButton.tsx",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/AddFriendButton.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/ui/Button.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "name": "",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/lib/utils.ts": {
+      "*": {
+        "id": "(sc_client)/./app/lib/utils.ts",
+        "name": "*",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/lib/utils.ts",
+        "name": "",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      },
+      "cn": {
+        "id": "(sc_client)/./app/lib/utils.ts",
+        "name": "cn",
+        "chunks": [
+          "app/(auth)/login/page:app/(auth)/login/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/lib/validations/add-friend.ts": {
+      "*": {
+        "id": "(sc_client)/./app/lib/validations/add-friend.ts",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/lib/validations/add-friend.ts",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      },
+      "addFriendValidator": {
+        "id": "(sc_client)/./app/lib/validations/add-friend.ts",
+        "name": "addFriendValidator",
+        "chunks": [
+          "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/FriendRequestSidebarOption.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/FriendRequestSidebarOption.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/FriendRequestSidebarOption.tsx",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/FriendRequestSidebarOption.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/SignOutButton.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/SignOutButton.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/SignOutButton.tsx",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/SignOutButton.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        ],
+        "async": false
+      },
+      "NoSSR": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "NoSSR",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        ],
+        "async": false
+      },
+      "__esModule": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "__esModule",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        ],
+        "async": false
+      },
+      "suspense": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "suspense",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
         ],
         "async": false
       }
@@ -2946,54 +3326,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/components/ui/Button.tsx": {
+    "(app-client)/./app/components/FriendRequests.tsx": {
       "*": {
-        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "id": "(sc_client)/./app/components/FriendRequests.tsx",
         "name": "*",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "id": "(sc_client)/./app/components/FriendRequests.tsx",
         "name": "",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/ui/Button.tsx",
+        "id": "(sc_client)/./app/components/FriendRequests.tsx",
         "name": "default",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./app/lib/utils.ts": {
-      "*": {
-        "id": "(sc_client)/./app/lib/utils.ts",
-        "name": "*",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/lib/utils.ts",
-        "name": "",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
-        ],
-        "async": false
-      },
-      "cn": {
-        "id": "(sc_client)/./app/lib/utils.ts",
-        "name": "cn",
-        "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
         ],
         "async": false
       }
@@ -3001,11 +3355,11 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/page": [
+      "static/css/app/page.css"
     ]
   },
   "clientModules": {
@@ -6869,7 +7223,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -6877,7 +7231,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -6885,7 +7239,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -6893,7 +7247,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -6901,7 +7255,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -6909,7 +7263,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/add-base-path.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -8981,7 +9335,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -8989,7 +9343,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -8997,7 +9351,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9005,7 +9359,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9013,7 +9367,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9021,7 +9375,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/normalize-trailing-slash.js",
       "name": "default",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9093,7 +9447,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9101,7 +9455,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9109,7 +9463,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9117,7 +9471,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9125,7 +9479,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9133,7 +9487,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9141,7 +9495,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9149,7 +9503,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/add-path-prefix.js",
       "name": "addPathPrefix",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9365,7 +9719,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9373,7 +9727,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9381,7 +9735,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9389,7 +9743,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9397,7 +9751,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9405,7 +9759,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9413,7 +9767,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9421,7 +9775,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/parse-path.js",
       "name": "parsePath",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9429,7 +9783,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9437,7 +9791,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "*",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9445,7 +9799,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9453,7 +9807,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9461,7 +9815,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9469,7 +9823,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "__esModule",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9477,7 +9831,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
@@ -9485,16 +9839,2393 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/remove-trailing-slash.js",
       "name": "removeTrailingSlash",
       "chunks": [
-        "app-client-internals:app-client-internals"
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/AddFriendButton.tsx": {
+      "id": "(app-client)/./app/components/AddFriendButton.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/AddFriendButton.tsx#": {
+      "id": "(app-client)/./app/components/AddFriendButton.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/AddFriendButton.tsx#default": {
+      "id": "(app-client)/./app/components/AddFriendButton.tsx",
       "name": "default",
       "chunks": [
-        "static/css/app/page.css"
-      ]
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx": {
+      "id": "(app-client)/./app/components/ui/Button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx#": {
+      "id": "(app-client)/./app/components/ui/Button.tsx",
+      "name": "",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx#default": {
+      "id": "(app-client)/./app/components/ui/Button.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts": {
+      "id": "(app-client)/./app/lib/utils.ts",
+      "name": "*",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts#": {
+      "id": "(app-client)/./app/lib/utils.ts",
+      "name": "",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts#cn": {
+      "id": "(app-client)/./app/lib/utils.ts",
+      "name": "cn",
+      "chunks": [
+        "app/(auth)/login/page:app/(auth)/login/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/validations/add-friend.ts": {
+      "id": "(app-client)/./app/lib/validations/add-friend.ts",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/validations/add-friend.ts#": {
+      "id": "(app-client)/./app/lib/validations/add-friend.ts",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/validations/add-friend.ts#addFriendValidator": {
+      "id": "(app-client)/./app/lib/validations/add-friend.ts",
+      "name": "addFriendValidator",
+      "chunks": [
+        "app/(dashboard)/dashboard/add/page:app/(dashboard)/dashboard/add/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequestSidebarOption.tsx": {
+      "id": "(app-client)/./app/components/FriendRequestSidebarOption.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequestSidebarOption.tsx#": {
+      "id": "(app-client)/./app/components/FriendRequestSidebarOption.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequestSidebarOption.tsx#default": {
+      "id": "(app-client)/./app/components/FriendRequestSidebarOption.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/SignOutButton.tsx": {
+      "id": "(app-client)/./app/components/SignOutButton.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/SignOutButton.tsx#": {
+      "id": "(app-client)/./app/components/SignOutButton.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/SignOutButton.tsx#default": {
+      "id": "(app-client)/./app/components/SignOutButton.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/client/use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-context.js#AmpStateContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "AmpStateContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-context.js#AmpStateContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "AmpStateContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-mode.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-mode.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-mode.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-mode.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-mode.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-mode.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/amp-mode.js#isInAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "isInAmpMode",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/amp-mode.js#isInAmpMode": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/amp-mode.js",
+      "name": "isInAmpMode",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-blur-svg.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-blur-svg.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-blur-svg.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-blur-svg.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-blur-svg.js#getImageBlurSvg": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "getImageBlurSvg",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-blur-svg.js#getImageBlurSvg": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-blur-svg.js",
+      "name": "getImageBlurSvg",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config-context.js#ImageConfigContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "ImageConfigContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config-context.js#ImageConfigContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "ImageConfigContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config.js#VALID_LOADERS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "VALID_LOADERS",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config.js#VALID_LOADERS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "VALID_LOADERS",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-config.js#imageConfigDefault": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "imageConfigDefault",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-config.js#imageConfigDefault": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-config.js",
+      "name": "imageConfigDefault",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-loader.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-loader.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-loader.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-loader.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-loader.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-loader.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/image-loader.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/image-loader.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/image-loader.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/lazy-dynamic/dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/match-remote-pattern.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/match-remote-pattern.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/match-remote-pattern.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/match-remote-pattern.js#hasMatch": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "hasMatch",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#hasMatch": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "hasMatch",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/match-remote-pattern.js#matchRemotePattern": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "matchRemotePattern",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/match-remote-pattern.js#matchRemotePattern": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/match-remote-pattern.js",
+      "name": "matchRemotePattern",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router-context.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router-context.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router-context.js#RouterContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "RouterContext",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router-context.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router-context.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatUrl",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#formatWithValidation": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "formatWithValidation",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/format-url.js#urlObjectKeys": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/format-url.js",
+      "name": "urlObjectKeys",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/interpolate-as.js#interpolateAs": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/interpolate-as.js",
+      "name": "interpolateAs",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-dynamic.js#isDynamicRoute": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-dynamic.js",
+      "name": "isDynamicRoute",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/is-local-url.js#isLocalURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/is-local-url.js",
+      "name": "isLocalURL",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/omit.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/omit.js#omit": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/omit.js",
+      "name": "omit",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/path-has-prefix.js#pathHasPrefix": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/path-has-prefix.js",
+      "name": "pathHasPrefix",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#assign": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "assign",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#searchParamsToUrlQuery": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "searchParamsToUrlQuery",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/querystring.js#urlQueryToSearchParams": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/querystring.js",
+      "name": "urlQueryToSearchParams",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/resolve-href.js#resolveHref": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/resolve-href.js",
+      "name": "resolveHref",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-matcher.js#getRouteMatcher": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-matcher.js",
+      "name": "getRouteMatcher",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedMiddlewareRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedMiddlewareRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getNamedRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getNamedRouteRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/router/utils/route-regex.js#getRouteRegex": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/router/utils/route-regex.js",
+      "name": "getRouteRegex",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#DecodeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "DecodeError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#MiddlewareNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MiddlewareNotFoundError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#MissingStaticPage": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "MissingStaticPage",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#NormalizeError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "NormalizeError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#PageNotFoundError": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "PageNotFoundError",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#SP": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "SP",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#ST": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "ST",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#WEB_VITALS": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "WEB_VITALS",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#execOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "execOnce",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#getDisplayName": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getDisplayName",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#getLocationOrigin": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getLocationOrigin",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#getURL": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "getURL",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#isAbsoluteUrl": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isAbsoluteUrl",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#isResSent": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "isResSent",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#loadGetInitialProps": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "loadGetInitialProps",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils.js#normalizeRepeatedSlashes": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
+      "name": "normalizeRepeatedSlashes",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils/warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils/warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils/warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils/warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/shared/lib/utils/warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/dist/esm/shared/lib/utils/warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
     },
     "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/globals.css#": {
       "id": "null",
@@ -9551,51 +12282,34 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx": {
-      "id": "(app-client)/./app/components/ui/Button.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
-    },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx#": {
-      "id": "(app-client)/./app/components/ui/Button.tsx",
-      "name": "",
-      "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
-    },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx#default": {
-      "id": "(app-client)/./app/components/ui/Button.tsx",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
-      ],
-      "async": false
+        "static/css/app/page.css"
+      ]
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts": {
-      "id": "(app-client)/./app/lib/utils.ts",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequests.tsx": {
+      "id": "(app-client)/./app/components/FriendRequests.tsx",
       "name": "*",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts#": {
-      "id": "(app-client)/./app/lib/utils.ts",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequests.tsx#": {
+      "id": "(app-client)/./app/components/FriendRequests.tsx",
       "name": "",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts#cn": {
-      "id": "(app-client)/./app/lib/utils.ts",
-      "name": "cn",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/FriendRequests.tsx#default": {
+      "id": "(app-client)/./app/components/FriendRequests.tsx",
+      "name": "default",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
       ],
       "async": false
     }
