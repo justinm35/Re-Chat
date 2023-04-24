@@ -12,8 +12,9 @@ export async function POST(req: Request) {
         const {id: idToAdd} = z.object({id: z.string()}).parse(body)
 
         const session = await getServerSession(authOptions)
-        if(!session) {
-            return new Response('Unauthorized', {status: 401})
+
+        if (!session) {
+          return new Response('Unauthorized', { status: 401 })
         }
 
         //verify both users are not already friends
@@ -36,6 +37,7 @@ export async function POST(req: Request) {
 
         return new Response('ok')
     } catch (error) {
+        console.log(error)
 
         if(error instanceof z.ZodError) {
             return new Response('Invalid request payload', {status: 422})

@@ -1,5 +1,5 @@
 {
-  "/(dashboard)/dashboard/add/page": "app/(dashboard)/dashboard/add/page.js",
   "/(dashboard)/dashboard/requests/page": "app/(dashboard)/dashboard/requests/page.js",
-  "/api/friends/accept/route": "app/api/friends/accept/route.js"
+  "/(dashboard)/dashboard/chat/[chatId]/page": "app/(dashboard)/dashboard/chat/[chatId]/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
