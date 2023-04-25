@@ -8,6 +8,7 @@ import { Message } from 'postcss';
 import { FC } from 'react'
 import Image from 'next/image';
 import Messages from '@/app/components/Messages';
+import ChatInput from '@/app/components/ChatInput';
 
 interface pageProps {
   params: {
@@ -17,7 +18,7 @@ interface pageProps {
 
 async function getChatMessages(chatId: string) {
   try {
-    const results: string[] = await fetchRedis('zrange', `chat${chatId}:messages`, 0, -1)
+    const results: string[] = await fetchRedis('zrange',`chat:${chatId}:messages`,0,-1)
     const dbMessages = results.map((message) => JSON.parse(message) as Message)
 
     const reversedDbMessages = dbMessages.reverse()
@@ -66,7 +67,8 @@ const page = async ({params} : pageProps) => {
         </div>
       </div>
     </div>
-    <Messages initialMessages={initialMessages} sessionId={session.user.id}/>
+    <Messages initialMessages={initialMessages} sessionId={session.user.id} chatPartner={chatPartner} sessionImg={session.user.image} chatId={chatId}/>
+    <ChatInput chatPartner={chatPartner} chatId={chatId}/>
   </div>
   )
 }

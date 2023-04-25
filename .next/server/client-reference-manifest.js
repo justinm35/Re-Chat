@@ -2998,12 +2998,38 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/components/UnseenChatToast.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/UnseenChatToast.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/UnseenChatToast.tsx",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/UnseenChatToast.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./app/components/ui/Button.tsx": {
       "*": {
         "id": "(sc_client)/./app/components/ui/Button.tsx",
         "name": "*",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3011,7 +3037,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/ui/Button.tsx",
         "name": "",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3019,7 +3045,41 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/components/ui/Button.tsx",
         "name": "default",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/lib/pusher.ts": {
+      "*": {
+        "id": "(sc_client)/./app/lib/pusher.ts",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/lib/pusher.ts",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "pusherClient": {
+        "id": "(sc_client)/./app/lib/pusher.ts",
+        "name": "pusherClient",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "pusherServer": {
+        "id": "(sc_client)/./app/lib/pusher.ts",
+        "name": "pusherServer",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       }
@@ -3029,7 +3089,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/lib/utils.ts",
         "name": "*",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3037,7 +3097,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/lib/utils.ts",
         "name": "",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3045,7 +3105,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/lib/utils.ts",
         "name": "chatHrefConstructor",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3053,7 +3113,15 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./app/lib/utils.ts",
         "name": "cn",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "toPusherKey": {
+        "id": "(sc_client)/./app/lib/utils.ts",
+        "name": "toPusherKey",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       }
@@ -3245,7 +3313,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "*",
         "chunks": [
-          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3253,7 +3321,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "",
         "chunks": [
-          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3261,7 +3329,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "NoSSR",
         "chunks": [
-          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3269,7 +3337,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "__esModule",
         "chunks": [
-          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
@@ -3277,33 +3345,49 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
         "name": "suspense",
         "chunks": [
-          "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       }
     },
-    "(app-client)/./app/components/Messages.tsx": {
+    "(app-client)/./node_modules/react-loading-skeleton/dist/index.js": {
       "*": {
-        "id": "(sc_client)/./app/components/Messages.tsx",
+        "id": "(sc_client)/./node_modules/react-loading-skeleton/dist/index.js",
         "name": "*",
         "chunks": [
-          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+          "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/components/Messages.tsx",
+        "id": "(sc_client)/./node_modules/react-loading-skeleton/dist/index.js",
         "name": "",
         "chunks": [
-          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+          "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+        ],
+        "async": false
+      },
+      "SkeletonTheme": {
+        "id": "(sc_client)/./node_modules/react-loading-skeleton/dist/index.js",
+        "name": "SkeletonTheme",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+        ],
+        "async": false
+      },
+      "__esModule": {
+        "id": "(sc_client)/./node_modules/react-loading-skeleton/dist/index.js",
+        "name": "__esModule",
+        "chunks": [
+          "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/components/Messages.tsx",
+        "id": "(sc_client)/./node_modules/react-loading-skeleton/dist/index.js",
         "name": "default",
         "chunks": [
-          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+          "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
         ],
         "async": false
       }
@@ -3386,28 +3470,54 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/(auth)/login/page.tsx": {
+    "(app-client)/./app/components/ChatInput.tsx": {
       "*": {
-        "id": "(sc_client)/./app/(auth)/login/page.tsx",
+        "id": "(sc_client)/./app/components/ChatInput.tsx",
         "name": "*",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/(auth)/login/page.tsx",
+        "id": "(sc_client)/./app/components/ChatInput.tsx",
         "name": "",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/(auth)/login/page.tsx",
+        "id": "(sc_client)/./app/components/ChatInput.tsx",
         "name": "default",
         "chunks": [
-          "app/(auth)/login/page:app/(auth)/login/page"
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Messages.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/components/Messages.tsx",
+        "name": "*",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/components/Messages.tsx",
+        "name": "",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Messages.tsx",
+        "name": "default",
+        "chunks": [
+          "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
         ],
         "async": false
       }
@@ -3415,11 +3525,14 @@ self.__RSC_MANIFEST={
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/page": [
-      "static/css/app/page.css"
-    ],
     "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/layout": [
       "static/css/app/layout.css"
+    ],
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/(dashboard)/dashboard/add/loading": [
+      "static/css/app/(dashboard)/dashboard/add/loading.css"
+    ],
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/(dashboard)/dashboard/requests/loading": [
+      "static/css/app/(dashboard)/dashboard/requests/loading.css"
     ]
   },
   "clientModules": {
@@ -9903,13 +10016,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/page.css"
-      ]
-    },
     "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/globals.css#": {
       "id": "null",
       "name": "default",
@@ -10013,11 +10119,35 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/UnseenChatToast.tsx": {
+      "id": "(app-client)/./app/components/UnseenChatToast.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/UnseenChatToast.tsx#": {
+      "id": "(app-client)/./app/components/UnseenChatToast.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/UnseenChatToast.tsx#default": {
+      "id": "(app-client)/./app/components/UnseenChatToast.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/layout:app/(dashboard)/dashboard/layout"
+      ],
+      "async": false
+    },
     "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ui/Button.tsx": {
       "id": "(app-client)/./app/components/ui/Button.tsx",
       "name": "*",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10025,7 +10155,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/components/ui/Button.tsx",
       "name": "",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10033,7 +10163,39 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/components/ui/Button.tsx",
       "name": "default",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/pusher.ts": {
+      "id": "(app-client)/./app/lib/pusher.ts",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/pusher.ts#": {
+      "id": "(app-client)/./app/lib/pusher.ts",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/pusher.ts#pusherClient": {
+      "id": "(app-client)/./app/lib/pusher.ts",
+      "name": "pusherClient",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/pusher.ts#pusherServer": {
+      "id": "(app-client)/./app/lib/pusher.ts",
+      "name": "pusherServer",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10041,7 +10203,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/lib/utils.ts",
       "name": "*",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10049,7 +10211,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/lib/utils.ts",
       "name": "",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10057,7 +10219,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/lib/utils.ts",
       "name": "chatHrefConstructor",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10065,7 +10227,15 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./app/lib/utils.ts",
       "name": "cn",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/lib/utils.ts#toPusherKey": {
+      "id": "(app-client)/./app/lib/utils.ts",
+      "name": "toPusherKey",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10921,7 +11091,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10929,7 +11099,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "*",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10937,7 +11107,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10945,7 +11115,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10953,7 +11123,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10961,7 +11131,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "NoSSR",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10969,7 +11139,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10977,7 +11147,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "__esModule",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10985,7 +11155,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -10993,7 +11163,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
       "name": "suspense",
       "chunks": [
-        "app/(dashboard)/dashboard/requests/page:app/(dashboard)/dashboard/requests/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
@@ -12309,27 +12479,51 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx": {
-      "id": "(app-client)/./app/components/Messages.tsx",
-      "name": "*",
-      "chunks": [
-        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
-      ],
-      "async": false
-    },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx#": {
-      "id": "(app-client)/./app/components/Messages.tsx",
-      "name": "",
-      "chunks": [
-        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
-      ],
-      "async": false
-    },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx#default": {
-      "id": "(app-client)/./app/components/Messages.tsx",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/skeleton.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+        "static/css/app/(dashboard)/dashboard/add/loading.css",
+        "static/css/app/(dashboard)/dashboard/requests/loading.css"
+      ]
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/index.js": {
+      "id": "(app-client)/./node_modules/react-loading-skeleton/dist/index.js",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/index.js#": {
+      "id": "(app-client)/./node_modules/react-loading-skeleton/dist/index.js",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/index.js#SkeletonTheme": {
+      "id": "(app-client)/./node_modules/react-loading-skeleton/dist/index.js",
+      "name": "SkeletonTheme",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/index.js#__esModule": {
+      "id": "(app-client)/./node_modules/react-loading-skeleton/dist/index.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/node_modules/react-loading-skeleton/dist/index.js#default": {
+      "id": "(app-client)/./node_modules/react-loading-skeleton/dist/index.js",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/requests/loading:app/(dashboard)/dashboard/requests/loading"
       ],
       "async": false
     },
@@ -12405,27 +12599,51 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/(auth)/login/page.tsx": {
-      "id": "(app-client)/./app/(auth)/login/page.tsx",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ChatInput.tsx": {
+      "id": "(app-client)/./app/components/ChatInput.tsx",
       "name": "*",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/(auth)/login/page.tsx#": {
-      "id": "(app-client)/./app/(auth)/login/page.tsx",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ChatInput.tsx#": {
+      "id": "(app-client)/./app/components/ChatInput.tsx",
       "name": "",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     },
-    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/(auth)/login/page.tsx#default": {
-      "id": "(app-client)/./app/(auth)/login/page.tsx",
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/ChatInput.tsx#default": {
+      "id": "(app-client)/./app/components/ChatInput.tsx",
       "name": "default",
       "chunks": [
-        "app/(auth)/login/page:app/(auth)/login/page"
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx": {
+      "id": "(app-client)/./app/components/Messages.tsx",
+      "name": "*",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx#": {
+      "id": "(app-client)/./app/components/Messages.tsx",
+      "name": "",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
+      ],
+      "async": false
+    },
+    "/Users/justinmartin/Documents/coding-projects/ReChat-project/app/components/Messages.tsx#default": {
+      "id": "(app-client)/./app/components/Messages.tsx",
+      "name": "default",
+      "chunks": [
+        "app/(dashboard)/dashboard/chat/[chatId]/page:app/(dashboard)/dashboard/chat/[chatId]/page"
       ],
       "async": false
     }
